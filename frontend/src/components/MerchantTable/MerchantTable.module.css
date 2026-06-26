@@ -1,0 +1,119 @@
+.section {
+    margin-top: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.filterGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filterLabel {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.select {
+    padding: 0.5rem;
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    outline: none;
+}
+
+.tableWrapper {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table th {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    background-color: rgba(0, 0, 0, 0.2);
+
+    font-weight: 600;
+}
+
+.table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+    color: var(--text-primary);
+}
+
+
+.timelineList {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+}
+
+.timelineItem {
+    margin-bottom: 0.5rem;
+}
+
+.timelineItem small {
+    color: var(--text-secondary);
+}
+
+
+.btn {
+    border: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+.btnSend {
+    background: #3B82F6;
+    color: #fff;
+}
+
+/* Azul */
+.btnApprove {
+    background: var(--success);
+    color: #fff;
+}
+
+.btnReject {
+    background: var(--danger);
+    color: #fff;
+}
+
+.btnBlock {
+    background: #ff9901;
+    color: #fff;
+}

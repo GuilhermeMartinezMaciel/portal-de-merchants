@@ -1,0 +1,22 @@
+.container {
+    background-color: var(--bg-card);
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--brand-primary);
+
+}
+
+.title {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.subtitle {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+}

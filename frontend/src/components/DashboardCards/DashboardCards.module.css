@@ -1,0 +1,52 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    /* Empilha os cards na vertical */
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--bg-main);
+    /* Fica mais escuro pra destacar do fundo da sidebar */
+    padding: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ... o resto do arquivo (cores das bordas, titles) continua exatamente igual */
+/* Cores das bordinhas laterais para identificar rápido */
+.cardTotal {
+    border-left: 4px solid var(--brand-primary);
+}
+
+.cardPending {
+    border-left: 4px solid #3b82f6;
+}
+
+.cardApproved {
+    border-left: 4px solid var(--success);
+}
+
+.cardAlert {
+    border-left: 4px solid var(--danger);
+}
+
+.title {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.value {
+    color: var(--text-primary);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+}
